@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paytm Movies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .movie-card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Paytm Movies</h1>
+  </header>
+  
+  <main>
+    <div class="movie-card">
+      <h2>Movie Title 1</h2>
+      <img src="movie1.jpg" alt="Movie Title 1">
+      <p>Description of Movie Title 1</p>
+      <button>Book Now</button>
+    </div>
+    
+    <div class="movie-card">
+      <h2>Movie Title 2</h2>
+      <img src="movie2.jpg" alt="Movie Title 2">
+      <p>Description of Movie Title 2</p>
+      <button>Book Now</button>
+    </div>
+    
+    <div class="movie-card">
+      <h2>Movie Title 3</h2>
+      <img src="movie3.jpg" alt="Movie Title 3">
+      <p>Description of Movie Title 3</p>
+      <button>Book Now</button>
+    </div>
+  </main>
+</body>
+</html>
