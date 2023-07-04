@@ -3,18 +3,18 @@ services:
   movies:
     image: vijayyarrabathina/paytmmsmovies:latest
     ports:
-      - "81:80"
+      - "80:80"
     deploy:
       replicas: 3
   train:
     image: vijayyarrabathina/paytmmstrain:latest
     ports:
-      - "82:80"
+      - "81:80"
     deploy:
       replicas: 3
   recharge:
     image: vijayyarrabathina/paytmmsrecharge:latest
     ports:
-      - "83:80"
+      - "82:80"
     deploy:
       replicas: 3
