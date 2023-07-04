@@ -1,0 +1,17 @@
+version: "3"
+services:
+  movies:
+    image: vijayyarrabathina/paytmmsmovies:latest
+    ports:
+      - "80:80"
+    replicas: 3
+  train:
+    image: vijayyarrabathina/paytmmstrain:latest
+    ports:
+      - "81:80"
+    replicas: 3
+  recharge:
+    image: vijayyarrabathina/paytmmsrecharge:latest
+    ports:
+      - "82:80"
+    replicas: 3
