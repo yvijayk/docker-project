@@ -4,14 +4,14 @@ services:
     image: vijayyarrabathina/paytmmsmovies:latest
     ports:
       - "80:80"
-    replicas: 2
+    
   train:
     image: vijayyarrabathina/paytmmstrain:latest
     ports:
       - "81:80"
-    replicas: 2
+    
   recharge:
     image: vijayyarrabathina/paytmmsrecharge:latest
     ports:
       - "82:80"
-    replicas: 2
+    
